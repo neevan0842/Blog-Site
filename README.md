@@ -29,7 +29,7 @@ The blogging website is a platform where users can create and publish their own 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/blogging-website.git
+    git clone https://github.com/neevan0842/Blog-Site.git
     ```
 
 2. Install the required dependencies:
