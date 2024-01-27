@@ -1,0 +1,14 @@
+{% extends "blogsite/layout.html" %}
+{% load static %}
+
+{% block body %}
+Categories
+<nav class="navbar-nav mr-auto" id="nav"></nav>
+<div id="create"></div>
+<div id="posts"></div>
+<div id="post"></div>
+{% endblock %}
+
+{% block head %}
+    <script type="module" src="{% static "blogsite/main.js" %}"></script>
+{% endblock %}
