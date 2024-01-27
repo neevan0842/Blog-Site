@@ -9,6 +9,10 @@ This is a blogging website developed as part of the CS50W final project.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+
+## YouTube Demo
+
+Check out the YouTube demo of the blogging website: [https://youtu.be/KC9Lw2fHeTk](https://youtu.be/KC9Lw2fHeTk)
 - [License](#license)
 
 ## Description
