@@ -1,28 +1,44 @@
 # Blogging Website
 
-This is a blogging website developed as part of the CS50W final project.
+This is a blogging website developed as the final project for CS50W using Django REST API on the backend and asynchronous JavaScript (fetch) on the frontend.
 
 ## Table of Contents
 
-- [Description](#description)
+- [Distinctiveness and Complexity](#distinctiveness-and-complexity)
 - [Features](#features)
+- [Folder Structure](#folder-structure)
+- [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Known Issues and Future Improvements](#known-issues-and-future-improvements)
+- [YouTube Demo](#youtube-demo)
+- [License](#license)
 
-## YouTube Demo
+## Distinctiveness and Complexity
 
-Check out the YouTube demo of the blogging website: [https://youtu.be/KC9Lw2fHeTk](https://youtu.be/KC9Lw2fHeTk)
-
-## Description
-
-The blogging website is a platform where users can create and publish their own blog posts. It provides a user-friendly interface for writing, editing, and managing blog content. Users can also interact with other bloggers by commenting on posts and engaging in discussions.
+This blogging website stands out from other projects in CS50W as it offers a platform for users to create, publish, and manage their blog posts. Unlike projects focused on web parsing, this project is built with Django REST API and features asynchronous JavaScript for seamless user interactions. The project's complexity lies in its implementation of user authentication, blog post creation, commenting system, and single-page web application design. It incorporates Django models, serializers, authentication, and permission classes, demonstrating a medium level of complexity.
 
 ## Features
 
-- User authentication: Users can create an account, log in, and manage their profile.
-- Blog post creation: Users can write and publish their own blog posts.
-- Commenting system: Users can leave comments on blog posts and engage in discussions.
+- **User Authentication**: Users can register, log in, and manage their profiles securely.
+- **Blog Post Management**: Users can create, edit, publish, and delete blog posts.
+- **Commenting System**: Users can leave comments on blog posts and engage in discussions.
+- **Admin Interface**: Administrators have access to manage blog posts and user accounts.
+- **Category Filtering**: Blog posts can be filtered based on categories for easy navigation.
+
+## Folder Structure
+
+- `backend`: Contains the Django project settings and configuration files.
+  - `api`: Houses the API routes, models, and serializers.
+  - `backend`: Includes security and settings files.
+  - `blogsite`: Manages the frontend of the application, including templates, styles, and HTML files.
+
+## Technologies Used
+
+- **Backend**: Django, Django REST API
+- **Frontend**: Vanilla JavaScript, HTML, CSS
+- **Database**: SQLite (default Django database)
 
 ## Installation
 
@@ -32,10 +48,10 @@ The blogging website is a platform where users can create and publish their own 
     git clone https://github.com/neevan0842/Blog-Site.git
     ```
 
-2. Install the required dependencies:
+2. Navigate to the backend directory and install dependencies:
 
     ```bash
-    cd backend
+    cd Blog-Site/backend
     pip install -r requirements.txt
     ```
 
@@ -57,13 +73,21 @@ The blogging website is a platform where users can create and publish their own 
 ## Usage
 
 1. Create an account or log in if you already have one.
-2. Explore the existing blog posts or create your own.
-3. Leave comments on blog posts to engage with other users.
+2. Explore existing blog posts or create your own.
+3. Engage with other users by leaving comments on blog posts.
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions or improvements, please submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcome! If you have frontend skills and would like to enhance the user interface, feel free to make use of the REST API provided. Submit pull requests for improvements or open issues for discussions.
+
+## Known Issues and Future Improvements
+
+There is room for many improvements in the project's design and functionality. Future enhancements will be made as skills develop.
+
+## YouTube Demo
+
+Check out the YouTube demo of the blogging website: [https://youtu.be/KC9Lw2fHeTk](https://youtu.be/KC9Lw2fHeTk)
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
